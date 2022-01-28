@@ -1,0 +1,14 @@
+
+// Hello world example
+const text = <https://pastebin.com/raw/8cvSxYWn>;
+console.log(text);
+
+
+// Shuffling an array
+const consoleLog = console.log
+console.log = () => {}
+
+<https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array>
+console.log = consoleLog;
+
+console.log(shuffle([1,2,3,4,5,6]))
