@@ -1,14 +1,11 @@
 
-// Hello world example
+// Hello world. Stash your literals just wherever.
 const text = <https://pastebin.com/raw/8cvSxYWn>;
-console.log(text);
+console.log(text); // Outputs "Hello World"
 
 
-// Shuffling an array
-const consoleLog = console.log
-console.log = () => {}
-
+// Shuffling an array. theft.js prioritizes stealing code from accepted answers.
 <https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array>
-console.log = consoleLog;
 
+// Outputs "[2,4,6,3,5,1]"
 console.log(shuffle([1,2,3,4,5,6]))
